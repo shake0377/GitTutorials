@@ -1,0 +1,98 @@
+1. Initialize the project
+C:\Shekhar\Learnings\Agenticworkspace\Langchainupdated>uv init
+
+2. Create a virtual environment and activate it.
+C:\Shekhar\Learnings\Agenticworkspace\Langchainupdated>uv venv
+Using CPython 3.13.5 interpreter at: C:\Users\Admin\anaconda3\python.exe
+Creating virtual environment at: .venv
+Activate with: .venv\Scripts\activate
+
+C:\Shekhar\Learnings\Agenticworkspace\Langchainupdated>.venv\Scripts\activate
+
+(Langchainupdated) C:\Shekhar\Learnings\Agenticworkspace\Langchainupdated>
+
+3. Install all libraries. Create requirements.txt outside of .venv folder
+(Langchainupdated) C:\Shekhar\Learnings\Agenticworkspace\Langchainupdated>uv add -r requirements.txt
+
+4. API Keys
+Google: AIzaSyApMaiZBpvyH7fflRtdBfC3SP0KydI48Og
+
+5. Git Code: Krish
+https://github.com/krishnaik06/Langchain-V1-Crash-Course/blob/main/updatedlangchain/6-middleware.ipynb
+
+
+================Git Tutorials =============================
+1. C:\Shekhar\Learnings\GitTutorial>git init
+Initialized empty Git repository in C:/Shekhar/Learnings/GitTutorial/.git/
+
+2. 
+C:\Shekhar\Learnings\GitTutorial>git config --global user.name
+C:\Shekhar\Learnings\GitTutorial>git config --global user.name "Shekhar Das"
+C:\Shekhar\Learnings\GitTutorial>git config --global user.name
+Shekhar Das
+
+3. 
+C:\Shekhar\Learnings\GitTutorial>git config --global user.email
+C:\Shekhar\Learnings\GitTutorial>git config --global user.email "shake0377@gmail.com"
+C:\Shekhar\Learnings\GitTutorial>git config --global user.email
+shake0377@gmail.com
+
+4. Git add : Tracks a file by git . 
+C:\Shekhar\Learnings\GitTutorial>git add README.md
+
+C:\Shekhar\Learnings\GitTutorial>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Notes.txt
+        requirements.txt
+
+5. git commit - Added to the staging environment. From here file is pushed to GitHub repository.
+C:\Shekhar\Learnings\GitTutorial>git commit -m "This is the 1st Commit"
+[master (root-commit) 853e1b4] This is the 1st Commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+
+6. Rename master to main branch
+C:\Shekhar\Learnings\GitTutorial>git branch
+* master
+
+C:\Shekhar\Learnings\GitTutorial>git branch -M main
+
+C:\Shekhar\Learnings\GitTutorial>git branch
+* main
+
+C:\Shekhar\Learnings\GitTutorial>
+
+7. Linking my local branch to remote branch
+C:\Shekhar\Learnings\GitTutorial>git remote add origin https://github.com/shake0377/GitTutorials.git
+
+C:\Shekhar\Learnings\GitTutorial>git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Notes.txt
+        requirements.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+8. origin is my staging environment.
+C:\Shekhar\Learnings\GitTutorial>git remote -v
+origin  https://github.com/shake0377/GitTutorials.git (fetch)
+origin  https://github.com/shake0377/GitTutorials.git (push)
+
+
+
+
+
+
+
+
+
